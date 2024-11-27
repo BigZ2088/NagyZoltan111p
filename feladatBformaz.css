@@ -1,0 +1,85 @@
+body {
+  color: #ffffff;
+  background-image: url(hatter.png);
+}
+
+#fo-tablazat {
+  width: 1000px;
+  border-collapse: collapse;
+  border: none;
+  margin-right: auto;
+}
+
+#fo-tablazat td {
+  padding: 5px;
+}
+
+.szel-cella {
+  display: block;
+  width: 85px;
+}
+
+.kozepre {
+  text-align: center;
+}
+
+.kep {
+  width: 200px;
+  height: 275px;
+}
+
+#kep-tablazat {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+hr {
+  width: 80%;
+  text-align: center;
+}
+
+.sorkizart {
+  text-align: justify;
+}
+
+.jobbra {
+  text-align: right;
+}
+
+.dolt {
+  font-style: italic;
+}
+
+.felkover {
+  font-weight: bold;
+}
+
+.szel-cella a {
+  margin-top: auto;
+}
+
+nav {
+  padding: 0 120px;
+  width: 760px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  margin-left: 95px;
+  width: 800px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+section figure {
+  margin: 0;
+}
